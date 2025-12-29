@@ -83,6 +83,17 @@ Build the matching version: `./freebsd-build/build-tsh.sh v13.4.26`
 ### Login fails silently
 Try with debug logging: `tsh login --debug --proxy your.proxy.com`
 
+## FreeBSD Port
+
+A FreeBSD port is included in `port/`. To install:
+
+```sh
+cd port
+sudo make install clean
+```
+
+See `port/README.md` for instructions on submitting to the FreeBSD ports tree.
+
 ## License
 
 Same as Teleport: [AGPL-3.0](https://github.com/gravitational/teleport/blob/master/LICENSE)
