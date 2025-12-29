@@ -1,0 +1,13 @@
+Teleport tsh is a CLI client for Teleport, an identity-aware, multi-protocol
+access proxy. It provides secure access to SSH servers, Kubernetes clusters,
+databases, and web applications behind NAT.
+
+Features:
+- SSH access to nodes in Teleport clusters
+- SCP file transfer
+- Kubernetes cluster access
+- Database access proxy
+- MFA support (TOTP, WebAuthn)
+
+Note: Hardware U2F/FIDO tokens are not supported on FreeBSD due to lack of
+HID support. Use TOTP or browser-based WebAuthn for MFA instead.
