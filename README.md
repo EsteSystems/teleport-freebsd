@@ -1,6 +1,6 @@
-# Teleport tsh for FreeBSD
+# Teleport for FreeBSD
 
-Build the [Teleport](https://goteleport.com/) `tsh` CLI client on FreeBSD.
+Build [Teleport](https://goteleport.com/) tools on FreeBSD.
 
 Teleport doesn't officially support FreeBSD, but `tsh` (the client) works fine with minor patches.
 
@@ -23,7 +23,7 @@ git clone --depth 1 --branch v13.4.26 https://github.com/gravitational/teleport.
 cd teleport
 
 # Clone this repo into freebsd-build/
-git clone https://github.com/YOUR_USERNAME/teleport-freebsd.git freebsd-build
+git clone https://github.com/EsteSystems/teleport-freebsd.git freebsd-build
 
 # Build
 ./freebsd-build/build-tsh.sh
