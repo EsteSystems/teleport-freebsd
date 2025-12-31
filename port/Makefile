@@ -7,7 +7,7 @@ MASTER_SITES=	https://github.com/gravitational/teleport/archive/refs/tags/
 DISTNAME=	v${PORTVERSION}
 DIST_SUBDIR=	teleport
 
-MAINTAINER=	your@email.com
+MAINTAINER= daniel@este.systems	
 COMMENT=	Teleport tsh CLI client for secure infrastructure access
 WWW=		https://goteleport.com/
 
